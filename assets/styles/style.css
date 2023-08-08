@@ -88,7 +88,7 @@ i {
 .last2 {
   background-color: #000;
   border: none;
-  color: #ffffff;
+  color: #fff;
   padding: 1% 2%;
   font-size: 20px;
   margin-left: 41%;
@@ -130,7 +130,6 @@ h2 {
   padding-top: 8%;
   font-size: 26px;
   color: #757575;
-
 }
 
 .sect4 {
@@ -156,7 +155,7 @@ h3 {
 .sect5 {
   display: flex;
   flex-direction: column;
-  background-color: #ffdddd;
+  background-color: #fdd;
 }
 
 .auto {
@@ -181,13 +180,13 @@ h3 {
   padding: 15px 30px;
   background-color: #f88179;
   border: none;
-  color: #ffffff;
+  color: #fff;
   font-size: 26px;
   border-radius: 3px;
 }
 
 .five:hover {
-  background-color: #cccccc;
+  background-color: #ccc;
 }
 
 .done {
@@ -212,7 +211,7 @@ h3 {
 
   .all2 {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     padding-left: 20%;
     gap: 1rem;
   }
@@ -245,5 +244,5 @@ h3 {
     font-size: 16px;
     justify-content: center;
   }
-  
 }
+
