@@ -3,8 +3,6 @@
   margin: 0;
 }
 
-/* section1 */
-
 .sect1 {
   background-image: url("../images/wedding_couple.jpg");
   width: 100%;
@@ -19,8 +17,6 @@
   position: fixed;
   width: 100%;
   z-index: 1;
-  /* background-color: red; */
-
 }
 
 .last {
@@ -30,21 +26,21 @@
   background-color: #ffffffd0;
 }
 
-.One:hover {
+.one:hover {
   background-color: #757575;
 }
 
-.One {
+.one {
   padding: 9px 60px;
   border-radius: 3px;
 }
 
-.On {
+.on {
   padding: 9px 60px;
   border-radius: 3px;
 }
 
-.On:hover {
+.on:hover {
   background-color: #000;
   color: #fff;
 }
@@ -60,9 +56,6 @@ h4 {
 .four {
   padding-top: 20%;
 }
-
-
-/* section2 */
 
 .centre {
   text-align: center;
@@ -107,14 +100,6 @@ i {
   background-color: #757575d0;
 }
 
-/* section3 */
-
-/* .image3 {
-  width: 100vw;
-  padding-top: 8%;
-  height: 100vh;
-} */
-
 .sect3 {
   padding-top: 20%;
   background-image: url("../images/flowers\ \(4\).jpg");
@@ -130,8 +115,6 @@ i {
   padding-top: -30%;
   font-size: 40px;
 }
-
-/* section4 */
 
 .image4 {
   width: 45%;
@@ -174,8 +157,6 @@ h3 {
   display: flex;
   flex-direction: column;
   background-color: #ffdddd;
-  /* gap: 3rf88179em; */
-
 }
 
 .auto {
