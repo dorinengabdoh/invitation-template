@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.sect1 {
+  background-image: url("../images/wedding_couple.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(50%);
+  height: 100vh;
+}
+
+.btn {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.last {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #ffffffd0;
+}
+
+.one {
+  padding: 9px 60px;
+  border-radius: 3px;
+}
+
+.one:hover {
+  background-color: #757575;
+}
+
+.on {
+  padding: 9px 60px;
+  border-radius: 3px;
+}
+
+.on:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+h1,
+p,
+h4 {
+  text-align: center;
+  color: #ffffffe5;
+  font-size: 30px;
+}
+
+.four {
+  padding-top: 20%;
+}
+
+.centre {
+  text-align: center;
+  padding-top: 9%;
+  color: #4341417c;
+}
+
+.all1 {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 25%;
+  gap: 3rem;
+}
+
+i {
+  color: #000;
+  font-size: 18px;
+}
+
+.sect2 {
+  background-color: #f2e1e1;
+}
+
+.image2 {
+  filter: grayscale(50%);
+}
+
+.last2 {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 1% 2%;
+  font-size: 20px;
+  margin-left: 41%;
+  margin-top: 3%;
+  margin-bottom: 7%;
+}
+
+.last2:hover {
+  background-color: #757575d0;
+}
+
+.sect3 {
+  padding-top: 20%;
+  background-image: url("../images/flowers\ \(4\).jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(20%);
+  height: 50vh;
+}
+
+.cent {
+  text-align: center;
+  padding-top: -30%;
+  font-size: 40px;
+}
+
+.image4 {
+  width: 45%;
+  padding-left: 26%;
+  padding-top: 10%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.two {
+  padding-top: 8%;
+  font-size: 26px;
+  color: #757575;
+}
+
+.sect4 {
+  background-color: #f2e1e1;
+  padding-bottom: 8%;
+}
+
+.all2 {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  padding-top: 5%;
+  color: #757575;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+
+h3 {
+  font-size: 22px;
+  color: #000;
+}
+
+.sect5 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fdd;
+}
+
+.auto {
+  padding-left: 36%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.auto1 {
+  font-size: 32px;
+}
+
+.auto2 {
+  font-size: 22px;
+  color: #757575;
+  padding-left: 38px;
+}
+
+.five {
+  margin-top: 4%;
+  margin-left: 12%;
+  padding: 15px 30px;
+  background-color: #f88179;
+  border: none;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 3px;
+}
+
+.five:hover {
+  background-color: #ccc;
+}
+
+.done {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 2%;
+}
+
+.rem {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    display: none;
+  }
+
+  main {
+    margin: 0 auto;
+  }
+
+  .all2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    gap: 1rem;
+  }
+
+  .auto {
+    margin-left: -13%;
+  }
+
+  .auto1 {
+    font-size: 18px;
+    text-align: center;
+    margin-right: 90px;
+  }
+
+  .auto2 {
+    font-size: 16px;
+    margin-right: 90px;
+    justify-content: center;
+  }
+}
+
+@media screen and (width: 768px) {
+  .auto1 {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 300px;
+  }
+
+  .auto2 {
+    font-size: 16px;
+    justify-content: center;
+  }
+}
