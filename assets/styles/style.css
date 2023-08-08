@@ -26,13 +26,13 @@
   background-color: #ffffffd0;
 }
 
-.one:hover {
-  background-color: #757575;
-}
-
 .one {
   padding: 9px 60px;
   border-radius: 3px;
+}
+
+.one:hover {
+  background-color: #757575;
 }
 
 .on {
@@ -245,4 +245,3 @@ h3 {
     justify-content: center;
   }
 }
-
